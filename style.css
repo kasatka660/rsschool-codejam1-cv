@@ -1,3 +1,75 @@
+/* Common styles. */
+
 body {
   background-color: #f6f6f6;
 }
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header and navigation. */
+
+.container__header {
+  background: url("./img/background-header.jpg") ;
+  background-size: cover;
+  background-position: 0 -200px;
+  padding-bottom: 50px;
+}
+
+nav {
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li  {
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #1c4a5a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  text-align: center;
+  color: #1c4a5a;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.profile ul {
+  padding-left: 0;
+}
+
+.profile ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.profile ul li a i {
+  font-size: 28px;
+  color: #1c4a5a;
+}
+
+.profile ul li a:hover i {
+  color: #fff;
+}
+
