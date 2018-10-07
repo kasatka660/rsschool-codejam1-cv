@@ -6,10 +6,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-align: center;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .container-fluid {
@@ -217,3 +222,37 @@ nav li a:hover {
 .percantage.person-skills__skill-5 {
   width: 90%;
 }
+
+
+/* Education block. */
+
+
+.education__university, .education__rss-school, .education__courses {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.education__university, .education__rss-schools {
+  width: 30%;
+}
+
+.education__courses {
+  width: 69%;
+  padding-top: 40px;
+}
+
+.education__courses h3 {
+  text-decoration: underline;
+}
+
+.courses__course-info {
+  display: inline-block;
+  width: 32%;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
