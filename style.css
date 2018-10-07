@@ -28,8 +28,8 @@ h4 {
 }
 
 .container {
-  max-width: 1024px;
   margin: 0 auto;
+  max-width: 1024px;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -42,12 +42,12 @@ h4 {
 
 .container__header {
   background: url("./img/background-header.jpg") ;
-  background-size: cover;
   background-position: 0 -170px;
+  background-size: cover;
 }
 
 .container__header .container {
-    padding-top: 0px;
+  padding-top: 0;
 }
 
 nav {
@@ -62,25 +62,25 @@ nav li  {
 }
 
 nav li a {
-  text-decoration: none;
   color: #1c4a5a;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 nav li a:hover {
   text-decoration: underline;
 }
 
-.profile {
-  text-align: center;
+.profile { 
   color: #1c4a5a;
+  text-align: center;
 }
 
 .profile img {
-  width: 200px;
-  height: 200px;
   border-radius: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .profile ul {
@@ -93,8 +93,8 @@ nav li a:hover {
 }
 
 .profile ul li a i {
-  font-size: 28px;
   color: #1c4a5a;
+  font-size: 28px; 
 }
 
 .profile ul li a:hover i {
@@ -106,8 +106,8 @@ nav li a:hover {
 
 .about-me__info-list, 
 .about-me__personal-text {
-  display: inline-block;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 .about-me__info-list{
@@ -118,34 +118,38 @@ nav li a:hover {
   width: 59%;
 }
 
+.about-me__personal-text p {
+  text-align: justify;
+}
+
 .about-me__info-list ul{
   font-size: 16px;
   list-style: none;
 }
 
 .about-me__info-list ul li {
-  padding: 14px 0 14px 115px;
-  font-size: 16px;
-  color: #363636;
-  font-weight: 400;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  color: #363636;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px 0 14px 115px;
   position: relative;
 }
 
 .about-me__info-list ul li strong {
+  display: block;
+  left: 0;
   position: absolute;
   top: 14px;
-  left: 0;
-  display: block;
   width: 115px;
 }
 
 .about-me__info-list ul li strong span {
-  padding: 2px 5px;
   background: #1c4a5a;
+  border-radius: 2px;
   color: #fefefe;
   font-weight: 400;
-  border-radius: 2px;
+  padding: 2px 5px;
 }
 
 .about-me__info-list ul li a {
@@ -158,9 +162,9 @@ nav li a:hover {
 }
 
 .about-me__personal-text p {
-  padding: 20px 20px 20px 50px;
   font-size: 16px;
   line-height: 25px;
+  padding: 20px 20px 20px 50px;
 }
 
 
@@ -168,8 +172,8 @@ nav li a:hover {
 
 .skills__prof-skills, 
 .skills__person-skills {
-  display: inline-block;
   box-sizing: border-box;
+  display: inline-block;
   width: 49%; 
 }
 
@@ -178,70 +182,69 @@ nav li a:hover {
 }
 
 .skill {
- 
-  height: 16px;
   border: 1px solid #363636;
   border-radius: 8px;
+  height: 16px;
   margin-bottom: 30px;
   margin-top: 10px;
 }
 
 .percantage {  
-  height: 16px;
-  border-radius: 6px;
   background-color: #1c4a5a;;
+  border-radius: 6px;
+  height: 16px;
 }
 
 /* Professional skills' values. */
 
-.percantage.prof-skills__skill-1 {
+.prof-skills__skill-1 {
   width: 80%;
 }
 
-.percantage.prof-skills__skill-2 {
+.prof-skills__skill-2 {
   width: 80%;
 }
 
-.percantage.prof-skills__skill-3 {
+.prof-skills__skill-3 {
   width: 70%;
 }
 
-.percantage.prof-skills__skill-4 {
+.prof-skills__skill-4 {
   width: 60%;
 }
 
-.percantage.prof-skills__skill-5 {
+.prof-skills__skill-5 {
   width: 30%;
 }
 
-.percantage.prof-skills__skill-6 {
+.prof-skills__skill-6 {
   width: 95%;
 }
 
 
 /* Personal skills' values. */
 
-.percantage.person-skills__skill-1 {
+.person-skills__skill-1 {
   width: 80%;
 }
 
-.percantage.person-skills__skill-2 {
+.person-skills__skill-2 {
   width: 75%;
 }
 
-.percantage.person-skills__skill-3 {
+.person-skills__skill-3 {
   width: 70%;
 }
 
-.percantage.person-skills__skill-4 {
+.person-skills__skill-4 {
   width: 85%;
 }
 
-.percantage.person-skills__skill-5 {
+.person-skills__skill-5 {
   width: 90%;
 }
 
-.percantage.person-skills__skill-6 {
+.person-skills__skill-6 {
   width: 70%;
 }
 
@@ -250,48 +253,49 @@ nav li a:hover {
 
 .education__university, 
 .education__rss-school {
-  display: inline-block;
   box-sizing: border-box;
+  display: inline-block;
   padding: 20px;
-  vertical-align: top;
   text-align: center;
+  vertical-align: top;
   width: 49%;
 }
 
 .education__courses {
-  width: 69%;
-  vertical-align: top;
-  text-align: center;
   margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  width: 69%; 
 }
 
 .courses__course-info {
   display: inline-block;
-  width: 32%;
   vertical-align: top;
+  width: 32%;
 }
 
-.logo img {
-  width: 100px;
+.logo img { 
   height: 100px;
+  width: 100px;
 }
 
 /* My works block. */
 
 .my-works__work-sample-1,
-.my-works__work-sample-2 {
-  display: inline-block;
+.my-works__work-sample-2 { 
   box-sizing: border-box;
-  width: 25%;
+  display: inline-block;
   padding: 30px;
+  width: 25%;
 }
 
 .my-works__description {
-  display: inline-block;
+  
   box-sizing: border-box;
-  width: 49%;
-  vertical-align: top;
+  display: inline-block;
   padding: 30px;
+  vertical-align: top;
+  width: 49%;
 }
 
 .my-works__description a {
@@ -322,17 +326,17 @@ footer {
 
 input, 
 textarea {
-  display: block;
-  width: 80%;
-  height: 32px;
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.42857;
-  color: #555555;
   background-color: #ffffff;
   border: 1px solid #ccc;
-  border-radius: 0px;
+  border-radius: 0;
+  color: #555555;
+  display: block;
+  font-size: 13px;
+  height: 32px; 
+  line-height: 1.42857;
   margin-top: 10px;
+  padding: 6px 12px;
+  width: 80%;
 }
 
 textarea {
@@ -341,21 +345,21 @@ textarea {
 
 .contact-form__col-1,
 .contact-form__col-2 {
-  display: inline-block;
-  width: 49%;
   box-sizing: border-box;
+  display: inline-block;
   padding: 20px 20px 20px 40px;
   vertical-align: top;
+  width: 49%;
 }
 
 .button {
-  height: 60px;
-  display: inline-block;
+  background-color: #4dbfd9;
   border: 1px solid #ffffff;
-  width: 150px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 60px;
   padding: 15px 10px 15px 10px;
   text-decoration: none;
-  font-size: 18px;
-  color: white;
-  background-color: #4dbfd9;
+  width: 150px;  
 }
