@@ -2,6 +2,14 @@
 
 body {
   background-color: #f6f6f6;
+  color: #363636;
+  letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 
 .container-fluid {
@@ -11,6 +19,8 @@ body {
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 /* Header and navigation. */
@@ -18,8 +28,11 @@ body {
 .container__header {
   background: url("./img/background-header.jpg") ;
   background-size: cover;
-  background-position: 0 -200px;
-  padding-bottom: 50px;
+  background-position: 0 -170px;
+}
+
+.container__header .container {
+    padding-top: 0px;
 }
 
 nav {
@@ -73,3 +86,134 @@ nav li a:hover {
   color: #fff;
 }
 
+
+/* About me block.  */
+.about-me__info-list, .about-me__personal-text {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.about-me__info-list{
+  width: 40%;
+}
+
+.about-me__personal-text {
+  width: 59%;
+}
+
+.about-me__info-list ul{
+  font-size: 16px;
+  list-style: none;
+}
+
+.about-me__info-list ul li {
+  padding: 14px 0 14px 115px;
+  font-size: 16px;
+  color: #363636;
+  font-weight: 400;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.about-me__info-list ul li strong {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: block;
+  width: 115px;
+}
+
+.about-me__info-list ul li strong span {
+  padding: 2px 5px;
+  background: #1c4a5a;
+  color: #fefefe;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.about-me__info-list ul li a {
+ color: #363636;
+ text-decoration: none;
+}
+
+.about-me__info-list ul li a:hover {
+ text-decoration: underline;
+}
+
+.about-me__personal-text p {
+  padding: 20px 20px 20px 50px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+/* Skills block. */
+
+.skills__prof-skills, .skills__person-skills {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%; 
+}
+
+.skillbar {
+  padding: 20px 40px;
+}
+
+.skill {
+ 
+  height: 16px;
+  border: 1px solid #363636;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.percantage {  
+  height: 16px;
+  border-radius: 6px;
+  background-color: #1c4a5a;;
+}
+
+/* Professional skills' values. */
+
+.percantage.prof-skills__skill-1 {
+  width: 80%;
+}
+
+.percantage.prof-skills__skill-2 {
+  width: 80%;
+}
+
+.percantage.prof-skills__skill-3 {
+  width: 70%;
+}
+
+.percantage.prof-skills__skill-4 {
+  width: 60%;
+}
+
+.percantage.prof-skills__skill-5 {
+  width: 30%;
+}
+
+/* Personal skills' values. */
+
+.percantage.person-skills__skill-1 {
+  width: 80%;
+}
+
+.percantage.person-skills__skill-2 {
+  width: 75%;
+}
+
+.percantage.person-skills__skill-3 {
+  width: 70%;
+}
+
+.percantage.person-skills__skill-4 {
+  width: 85%;
+}
+
+.percantage.person-skills__skill-5 {
+  width: 90%;
+}
