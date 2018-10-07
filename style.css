@@ -6,14 +6,16 @@ body {
   letter-spacing: 0.02em;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3,
+h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-align: center;
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
@@ -28,6 +30,9 @@ h4 {
   padding-top: 50px;
 }
 
+.container_background-gray {
+  background: #fefefe;
+}
 /* Header and navigation. */
 
 .container__header {
@@ -88,12 +93,13 @@ nav li a:hover {
 }
 
 .profile ul li a:hover i {
-  color: #fff;
+  color: #ffffff;
 }
 
 
 /* About me block.  */
-.about-me__info-list, .about-me__personal-text {
+.about-me__info-list, 
+.about-me__personal-text {
   display: inline-block;
   box-sizing: border-box;
 }
@@ -154,7 +160,8 @@ nav li a:hover {
 
 /* Skills block. */
 
-.skills__prof-skills, .skills__person-skills {
+.skills__prof-skills, 
+.skills__person-skills {
   display: inline-block;
   box-sizing: border-box;
   width: 49%; 
@@ -227,28 +234,27 @@ nav li a:hover {
 /* Education block. */
 
 
-.education__university, .education__rss-school, .education__courses {
+.education__university, 
+.education__rss-school {
   display: inline-block;
   box-sizing: border-box;
   padding: 20px;
-}
-
-.education__university, .education__rss-schools {
-  width: 30%;
+  vertical-align: top;
+  text-align: center;
+  width: 49%;
 }
 
 .education__courses {
   width: 69%;
-  padding-top: 40px;
-}
-
-.education__courses h3 {
-  text-decoration: underline;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .courses__course-info {
   display: inline-block;
   width: 32%;
+  vertical-align: top;
 }
 
 .logo img {
@@ -256,3 +262,87 @@ nav li a:hover {
   height: 100px;
 }
 
+/* My works block*/
+
+
+.my-works__work-sample-1,
+.my-works__work-sample-2 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 30px;
+}
+
+.my-works__description {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%;
+  vertical-align: top;
+  padding: 30px;
+}
+
+.my-works__description a {
+  color:  #363636;
+}
+
+.my-works__description a:hover {
+  text-decoration: none;
+}
+
+.my-works__description p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.my-works__work-sample-1 img,
+.my-works__work-sample-2 img {
+  width: 200px;
+
+}
+
+/* Footer with Contact me form. */
+
+footer {
+  background-color: #1c4a5a;
+  color: #ffffff;
+}
+
+input, 
+textarea {
+  display: block;
+  width: 80%;
+  height: 32px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.contact-form__col-1,
+.contact-form__col-2 {
+  display: inline-block;
+  width: 49%;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 40px;
+  vertical-align: top;
+}
+
+.button {
+  height: 60px;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  width: 150px;
+  padding: 15px 10px 15px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background-color: #4dbfd9;
+}
