@@ -11,14 +11,14 @@
 <body>
   <header>
     <div class="container-fluid container__header">
-      <div class="container">
+      <div class="container" id="home">
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li> 
             <li><a href="#education">Education</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#my-works">My Works</a></li>
           </ul>
         </nav>
         <div class="profile">
@@ -36,7 +36,7 @@
     </div>
   </header>
   <main>
-    <div class="container about-me">
+    <div class="container about-me" id="about">
       <section class="about-me__info-list">
         <ul>
           <li><strong><span>Age:</span></strong> 23 Years</li>
@@ -48,20 +48,19 @@
       </section>
       <section class="about-me__personal-text">
         <p>
-          After 1 year of self-education via online courses and videos
-          can’t wait to start as a junior front-end developer with a strong
-          desire to practice and learn a lot more.
-          After 1 year of self-education via online courses and videos
-          can’t wait to start as a junior front-end developer with a strong
-          desire to practice and learn a lot more.
-          After 1 year of self-education via online courses and videos
-          can’t wait to start as a junior front-end developer with a strong
-          desire to practice and learn a lot more.
+          The goal I have is becoming a frone-end developer. <br>
+          After realising how boring it is to be an economist <br>
+          I decided to give myself a challenge and start something brand-new for me.<br>
+          And that is programming. Front-end seems exciting to me.<br>
+          I spent 1 year self-educating via all kinds of online courses and videos.<br>
+          Rolling scoped School is another great opportunity lo learn.<br>
+          I can’t wait to start as a junior front-end developer in reality.<br>
         </p>
       </section>
+    </div>
     <div class="container skills container_background-gray">
-      <h2>SKILLS</h2>
-      <section class="skills__prof-skills">
+      <h2>Skills</h2>
+      <section class="skills__prof-skills" id="skills">
         <h3>Professional</h3>
         <div class="skillbar prof-skills__skillbar">
           <label for="prof-skills__skill-1">HTML</label>
@@ -83,6 +82,10 @@
           <label for="prof-skills__skill-5">Java Script</label>
           <div class="skill" id="prof-skills__skill-5">
             <div class="percantage prof-skills__skill-5"></div>
+          </div>
+          <label for="prof-skills__skill-6">English language</label>
+          <div class="skill" id="prof-skills__skill-6">
+            <div class="percantage prof-skills__skill-6"></div>
           </div>
         </div>  
       </section>
@@ -109,14 +112,18 @@
           <div class="skill" id="person-skills__skill-5">
             <div class="percantage person-skills__skill-5"></div>
           </div>
+          <label for="person-skills__skill-6">Leadership</label>
+          <div class="skill" id="person-skills__skill-6">
+            <div class="percantage person-skills__skill-6"></div>
+          </div>
         </div>  
       </section>
     </div>
     <div class="container">
-      <section class="education">
-       <h2>EDUCATION</h2>
+      <section class="education" id="education">
+       <h2>Education</h2>
         <div class="education__university">
-          <div class="logo bachelor-logo">
+          <div class="logo">
            <img src="./img/bachelor.jpg" alt="Bachelor's logo"/>
           </div>
           <div class="university__university-info">
@@ -125,9 +132,8 @@
           Years: 2011 - 2016
           </div>
         </div>    
-        
         <div class="education__rss-school">
-          <div class="logo rss-logo">
+          <div class="logo">
             <img src="./img/rss-school.svg" alt="Rss-school logo"/>
           </div>
           <div class="rss-school__rss-schhol-info">
@@ -157,8 +163,8 @@
       </section>
     </div>
     <div class="container container_background-gray">
-      <section class="my-works ">
-        <h2>MY WORKS</h2>
+      <section class="my-works" id="my-works">
+        <h2>My Works</h2>
         <div class="my-works__work-sample-1">
           <a href="./img/work-sample-1.png" target="_blank">
             <img src="./img/work-sample-1-preview.png" alt="Sample of work"></a>
@@ -170,14 +176,13 @@
         <div class="my-works__description">
           <p>
             These are simple landing pages.<br>
-            One is for restaurant website and the other for recepies website. <br> 
-            HTML, Sass and Bootstrap were used. 
+            One is for restaurant website and the other for recipes website. <br> 
+            HTML, Sass, Bootstrap and a bit of JS were used. 
           </p>
           <p>
             Here are the links for repositories with these works: <br>
             <a href="https://github.com/kasatka660/Restaurant-website">Restaurant website</a><br>
-            <a href="https://github.com/kasatka660/Recepies-website">Recepies website</a>
-
+            <a href="https://github.com/kasatka660/Recipes-website">Recipes website</a>
           </p>
         </div>
       </section>
@@ -186,7 +191,7 @@
   <footer>
     <div class="container">
       <h2>Contact me</h2>
-      <form class="contact-form" action="/action_page.php">
+      <form class="contact-form">
         <div class="contact-form__col-1">
           <label for="name">Name:</label>
           <input type="text" name="name" id="name" placeholder="Your name"><br>
@@ -200,7 +205,6 @@
           <textarea name="message" id="message" placeholder="Your message"></textarea><br/>
           <input type="submit" class="button" value="Send">
         </div>
-        <div class="clearfix"></div>
       </form>
     </div>
   </footer>

@@ -15,6 +15,10 @@ h4 {
   text-align: center;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 h4 {
   font-weight: 600;
 }
@@ -33,6 +37,7 @@ h4 {
 .container_background-gray {
   background: #fefefe;
 }
+
 /* Header and navigation. */
 
 .container__header {
@@ -98,6 +103,7 @@ nav li a:hover {
 
 
 /* About me block.  */
+
 .about-me__info-list, 
 .about-me__personal-text {
   display: inline-block;
@@ -208,6 +214,11 @@ nav li a:hover {
   width: 30%;
 }
 
+.percantage.prof-skills__skill-6 {
+  width: 95%;
+}
+
+
 /* Personal skills' values. */
 
 .percantage.person-skills__skill-1 {
@@ -230,9 +241,12 @@ nav li a:hover {
   width: 90%;
 }
 
+.percantage.person-skills__skill-6 {
+  width: 70%;
+}
+
 
 /* Education block. */
-
 
 .education__university, 
 .education__rss-school {
@@ -262,8 +276,7 @@ nav li a:hover {
   height: 100px;
 }
 
-/* My works block*/
-
+/* My works block. */
 
 .my-works__work-sample-1,
 .my-works__work-sample-2 {
