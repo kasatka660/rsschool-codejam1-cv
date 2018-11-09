@@ -1,0 +1,365 @@
+/* Common styles. */
+
+body {
+  background-color: #f6f6f6;
+  color: #363636;
+  letter-spacing: 0.02em;
+}
+
+h1, 
+h2, 
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container_background-gray {
+  background: #fefefe;
+}
+
+/* Header and navigation. */
+
+.container__header {
+  background: url("./img/background-header.jpg") ;
+  background-position: 0 -170px;
+  background-size: cover;
+}
+
+.container__header .container {
+  padding-top: 0;
+}
+
+nav {
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li  {
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+nav li a {
+  color: #1c4a5a;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.profile { 
+  color: #1c4a5a;
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.profile ul {
+  padding-left: 0;
+}
+
+.profile ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.profile ul li a i {
+  color: #1c4a5a;
+  font-size: 28px; 
+}
+
+.profile ul li a:hover i {
+  color: #ffffff;
+}
+
+
+/* About me block.  */
+
+.about-me__info-list, 
+.about-me__personal-text {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.about-me__info-list{
+  width: 40%;
+}
+
+.about-me__personal-text {
+  width: 59%;
+}
+
+.about-me__personal-text p {
+  text-align: justify;
+}
+
+.about-me__info-list ul{
+  font-size: 16px;
+  list-style: none;
+}
+
+.about-me__info-list ul li {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  color: #363636;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px 0 14px 115px;
+  position: relative;
+}
+
+.about-me__info-list ul li strong {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 115px;
+}
+
+.about-me__info-list ul li strong span {
+  background: #1c4a5a;
+  border-radius: 2px;
+  color: #fefefe;
+  font-weight: 400;
+  padding: 2px 5px;
+}
+
+.about-me__info-list ul li a {
+ color: #363636;
+ text-decoration: none;
+}
+
+.about-me__info-list ul li a:hover {
+ text-decoration: underline;
+}
+
+.about-me__personal-text p {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 20px 20px 20px 50px;
+}
+
+
+/* Skills block. */
+
+.skills__prof-skills, 
+.skills__person-skills {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%; 
+}
+
+.skillbar {
+  padding: 20px 40px;
+}
+
+.skill {
+  border: 1px solid #363636;
+  border-radius: 8px;
+  height: 16px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.percantage {  
+  background-color: #1c4a5a;;
+  border-radius: 6px;
+  height: 16px;
+}
+
+/* Professional skills' values. */
+
+.prof-skills__skill-1 {
+  width: 80%;
+}
+
+.prof-skills__skill-2 {
+  width: 80%;
+}
+
+.prof-skills__skill-3 {
+  width: 70%;
+}
+
+.prof-skills__skill-4 {
+  width: 60%;
+}
+
+.prof-skills__skill-5 {
+  width: 30%;
+}
+
+.prof-skills__skill-6 {
+  width: 95%;
+}
+
+
+/* Personal skills' values. */
+
+.person-skills__skill-1 {
+  width: 80%;
+}
+
+.person-skills__skill-2 {
+  width: 75%;
+}
+
+.person-skills__skill-3 {
+  width: 70%;
+}
+
+.person-skills__skill-4 {
+  width: 85%;
+}
+
+.person-skills__skill-5 {
+  width: 90%;
+}
+
+.person-skills__skill-6 {
+  width: 70%;
+}
+
+
+/* Education block. */
+
+.education__university, 
+.education__rss-school {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 49%;
+}
+
+.education__courses {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  width: 69%; 
+}
+
+.courses__course-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+.logo img { 
+  height: 100px;
+  width: 100px;
+}
+
+/* My works block. */
+
+.my-works__work-sample-1,
+.my-works__work-sample-2 { 
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 30px;
+  width: 25%;
+}
+
+.my-works__description {
+  
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 30px;
+  vertical-align: top;
+  width: 49%;
+}
+
+.my-works__description a {
+  color:  #363636;
+}
+
+.my-works__description a:hover {
+  text-decoration: none;
+}
+
+.my-works__description p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.my-works__work-sample-1 img,
+.my-works__work-sample-2 img {
+  width: 200px;
+
+}
+
+/* Footer with Contact me form. */
+
+footer {
+  background-color: #1c4a5a;
+  color: #ffffff;
+}
+
+input, 
+textarea {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #555555;
+  display: block;
+  font-size: 13px;
+  height: 32px; 
+  line-height: 1.42857;
+  margin-top: 10px;
+  padding: 6px 12px;
+  width: 80%;
+}
+
+textarea {
+  height: 100px;
+}
+
+.contact-form__col-1,
+.contact-form__col-2 {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 20px 20px 20px 40px;
+  vertical-align: top;
+  width: 49%;
+}
+
+.button {
+  background-color: #4dbfd9;
+  border: 1px solid #ffffff;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  height: 60px;
+  padding: 15px 10px 15px 10px;
+  text-decoration: none;
+  width: 150px;  
+}
